@@ -12,4 +12,4 @@ Code Structure
 ```
 
 # Swaager API
-![](/doc/img/screenshot.png)
+![](/docs/img/screenshot.png)
