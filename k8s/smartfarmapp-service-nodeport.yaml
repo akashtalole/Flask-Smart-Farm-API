@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: smartfarmapp-svc-np
+  namespace: default
+  labels:
+    app: smartfarmapp
+spec:
+  type: NodePort
+  ports:
+  - port: 5000
+    targetPort: 5000
+    protocol: TCP
+  selector:
+    app: smartfarmapp

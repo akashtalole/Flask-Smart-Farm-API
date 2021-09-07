@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: smartfarmapp
+  labels:
+    app: smartfarmapp
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: smartfarmapp
+  template:
+    metadata:
+      labels:
+        app: smartfarmapp
+    spec:
+      containers:
+        - name: smartfarmapp
+          image: flask-smart-farm-api_app
+          ports:
+            - containerPort: 5000
+          imagePullPolicy: IfNotPresent
