@@ -2,16 +2,21 @@ from flask import Flask, request, jsonify
 from flask_restplus import Api, Resource, fields
 from flask_pymongo import PyMongo
 from bson.objectid import ObjectId
+from flask_sqlalchemy import SQLAlchemy
+#from flask_restplus_patched import Api, Namespace, Resource, ModelSchema
+
 
 flask_app = Flask(__name__)
+db = SQLAlchemy(flask_app)
 app = Api(app = flask_app)
 
+#app = Api(flask_app)
 
 name_space = app.namespace('Farm', description='Flask Smart Farm APIs')
 land_name_space = app.namespace('Land', description='Land APIs')
 farmer_name_space = app.namespace('Farmer', description='Farmer APIs')
 crop_name_space = app.namespace('Crop', description='Crop APIs')
-
+livestock_space = app.namespace('Livestock', description='Livestock management')
 
 @name_space.route("/")
 class MainClass(Resource):
@@ -86,5 +91,20 @@ class MainClass(Resource):
 		return {
 			"status": "Deleted crop data"
 		}
+
+@livestock_space.route("/")
+class MainClass(Resource):
+	def get(self):
+		return { "status": "Get livestock data"}
+	
+	def post(self):
+		return { "status": "Add livestock data"}
+
+	def put(self):
+		return { "status": "Update livestock data"}
+
+	def delete(self):
+		return { "status": "delete livestock data"}
+
 if __name__ == '__main__':
 	flask_app.run(host="0.0.0.0", debug=True)
