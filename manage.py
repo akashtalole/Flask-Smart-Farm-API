@@ -107,7 +107,7 @@ class MainClass(Resource):
 	def delete(self):
 		return { "status": "delete livestock data"}
 
-@activities_space.route("/"):
+@activities_space.route("/")
 class MainClass(Resource):
 	def get(self):
 		return { "status": "Get Activity data"}
