@@ -5,5 +5,5 @@ services:
     #command: python manage.py
     ports:
       - "5000:5000"
-    #volumes:
-    #  - .:/flask-smart-farm
+    volumes:
+      - .:/flask-smart-farm
