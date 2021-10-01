@@ -21,6 +21,7 @@ activities_space = app.namespace('Activities', description='Activities managemen
 prices_space = app.namespace('Prices', description='Crop Prices')
 fertilizers_space = app.namespace('Fertilizers', description='Fertilizers')
 precision_farming_space = app.namespace('Precesion Farming', description='Precesion Farming')
+loan_space = app.namespace('Loan Management', description='Loan Management')
 
 @name_space.route("/")
 class MainClass(Resource):
@@ -165,6 +166,21 @@ class MainClass(Resource):
 
 	def delete(self):
 		return { "status": "delete Precesion Farming data"}
+
+@loan_space.route("/")
+class MainClass(Resource):
+
+	def get(self):
+		return { "status": "Get Farming loan data"}
+	
+	def post(self):
+		return { "status": "Add Farming loan data"}
+
+	def put(self):
+		return { "status": "Update Farming loan data"}
+
+	def delete(self):
+		return { "status": "Delete Farming loan data"}
 
 if __name__ == '__main__':
 	flask_app.run(host="0.0.0.0", debug=True)
