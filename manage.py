@@ -25,6 +25,7 @@ loan_space = app.namespace('Loan Management', description='Loan Management')
 credit_space = app.namespace('Credit Management', description='Credit Management')
 seed_space = app.namespace('Seed Management', description='Seed Management')
 equipment_space = app.namespace('Equipment Management', description='Equipment Management')
+soiltesting_space = app.namespace('Soil Testing', description='Soil Testing')
 
 @name_space.route("/")
 class MainClass(Resource):
@@ -229,5 +230,21 @@ class MainClass(Resource):
 
 	def delete(self):
 		return { "status": "Delete equipment data"}
+
+@soiltesting_space.route("/")
+class MainClass(Resource):
+
+	def get(self):
+		return { "status": "Get soil testing data"}
+	
+	def post(self):
+		return { "status": "Add soil testing data"}
+
+	def put(self):
+		return { "status": "Update soil testing data"}
+
+	def delete(self):
+		return { "status": "Delete soil testing data"}
+
 if __name__ == '__main__':
 	flask_app.run(host="0.0.0.0", debug=True)
