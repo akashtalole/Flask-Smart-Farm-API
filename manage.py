@@ -29,6 +29,7 @@ soiltesting_space = app.namespace('Soil Testing', description='Soil Testing')
 insurance_space = app.namespace('Insurance', description='Insurance')
 pesticide_space = app.namespace('Pesticide management', description='Pesticide')
 landrecord_space = app.namespace('Land Record', description='Land Record')
+apmc_space = app.namespace('APMC Data', description='APMC')
 
 @name_space.route("/")
 class MainClass(Resource):
@@ -293,5 +294,20 @@ class MainClass(Resource):
 
 	def delete(self):
 		return { "status": "Delete land record data"}
+
+@apmc_space.route("/")
+class MainClass(Resource):
+
+	def get(self):
+		return { "status": "Get APMC data"}
+	
+	def post(self):
+		return { "status": "Add APMC data"}
+
+	def put(self):
+		return { "status": "Update APMC data"}
+
+	def delete(self):
+		return { "status": "Delete APMC data"}
 if __name__ == '__main__':
 	flask_app.run(host="0.0.0.0", debug=True)
