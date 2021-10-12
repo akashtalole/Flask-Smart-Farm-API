@@ -30,6 +30,7 @@ insurance_space = app.namespace('Insurance', description='Insurance')
 pesticide_space = app.namespace('Pesticide management', description='Pesticide')
 landrecord_space = app.namespace('Land Record', description='Land Record')
 apmc_space = app.namespace('APMC Data', description='APMC')
+erigation_space = app.namespace('Erigation Management', description="Erigation")
 
 @name_space.route("/")
 class MainClass(Resource):
@@ -309,5 +310,20 @@ class MainClass(Resource):
 
 	def delete(self):
 		return { "status": "Delete APMC data"}
+
+@erigation_space.route("/")
+class MainClass(Resource):
+
+	def get(self):
+		return { "status": "Get erigation data"}
+	
+	def post(self):
+		return { "status": "Add erigation data"}
+
+	def put(self):
+		return { "status": "Update erigation data"}
+
+	def delete(self):
+		return { "status": "Delete erigation data"}
 if __name__ == '__main__':
 	flask_app.run(host="0.0.0.0", debug=True)
