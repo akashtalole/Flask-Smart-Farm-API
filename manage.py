@@ -32,6 +32,7 @@ landrecord_space = app.namespace('Land Record', description='Land Record')
 apmc_space = app.namespace('APMC Data', description='APMC')
 erigation_space = app.namespace('Erigation Management', description="Erigation")
 electricity_space = app.namespace('Electricity', description="Electricity")
+food_space = app.namespace('Food', description="Food")
 
 @name_space.route("/")
 class MainClass(Resource):
@@ -341,5 +342,20 @@ class MainClass(Resource):
 
 	def delete(self):
 		return { "status": "Delete electricity data"}
+
+@food_space.route("/")
+class MainClass(Resource):
+
+	def get(self):
+		return { "status": "Get Food data"}
+	
+	def post(self):
+		return { "status": "Add Food data"}
+
+	def put(self):
+		return { "status": "Update Food data"}
+
+	def delete(self):
+		return { "status": "Delete Food  data"}
 if __name__ == '__main__':
 	flask_app.run(host="0.0.0.0", debug=True)
