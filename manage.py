@@ -34,6 +34,7 @@ erigation_space = app.namespace('Erigation Management', description="Erigation")
 electricity_space = app.namespace('Electricity', description="Electricity")
 food_space = app.namespace('Food', description="Food")
 govscheme_space = app.namespace('Gov Scheme', description="Gov Schemes")
+credit_space = app.namespace('Credit Scheme', description="Credit Schemes")
 
 @name_space.route("/")
 class MainClass(Resource):
@@ -374,6 +375,21 @@ class MainClass(Resource):
 
 	def delete(self):
 		return { "status": "Delete Gov Scheme  data"}
+
+@credit_space.route("/")
+class MainClass(Resource):
+
+	def get(self):
+		return { "status": "Get Credit schemes data"}
+	
+	def post(self):
+		return { "status": "Add Credit scheme data"}
+
+	def put(self):
+		return { "status": "Update Credit Scheme data"}
+
+	def delete(self):
+		return { "status": "Delete Credit Scheme  data"}
 
 if __name__ == '__main__':
 	flask_app.run(host="0.0.0.0", debug=True)
