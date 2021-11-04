@@ -36,6 +36,7 @@ food_space = app.namespace('Food', description="Food")
 govscheme_space = app.namespace('Gov Scheme', description="Gov Schemes")
 credit_space = app.namespace('Credit Scheme', description="Credit Schemes")
 dairy_space = app.namespace('Dairy Scheme', description="Dairy Schemes")
+krishiknowledge_space = app.namespace('Krishi Knowledge', description="Krishi Knowledge")
 
 @name_space.route("/")
 class MainClass(Resource):
@@ -406,5 +407,19 @@ class MainClass(Resource):
 
 	def delete(self):
 		return { "status": "Delete dairy Scheme  data"}
+@krishiknowledge_space.route("/")
+class MainClass(Resource):
+
+	def get(self):
+		return { "status": "Get krishi knowledge data"}
+	
+	def post(self):
+		return { "status": "Add krishi knowledge  data"}
+
+	def put(self):
+		return { "status": "Update krishi knowledge data"}
+
+	def delete(self):
+		return { "status": "Delete krishi knowledge data"}
 if __name__ == '__main__':
 	flask_app.run(host="0.0.0.0", debug=True)
