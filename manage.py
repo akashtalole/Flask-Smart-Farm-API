@@ -39,6 +39,7 @@ dairy_space = app.namespace('Dairy Scheme', description="Dairy Schemes")
 krishiknowledge_space = app.namespace('Krishi Knowledge', description="Krishi Knowledge")
 cropdetection_space = app.namespace('Crop Detection API', description="Crop Detection API")
 cropdiseasedetection_space = app.namespace('Crop Disease Detection API', description="Crop Disease Detection API")
+water_space = app.namespace('Water MAnagement', description="Water Management")
 
 @name_space.route("/")
 class MainClass(Resource):
@@ -454,6 +455,21 @@ class MainClass(Resource):
 
 	def delete(self):
 		return { "status": "Delete crop disease info data"}
+
+@water_space.route("/")
+class MainClass(Resource):
+
+	def get(self):
+		return { "status": "Get water level info"}
+	
+	def post(self):
+		return { "status": "Add water level"}
+
+	def put(self):
+		return { "status": "Update water level"}
+
+	def delete(self):
+		return { "status": "Delete water level data"}
 
 if __name__ == '__main__':
 	flask_app.run(host="0.0.0.0", debug=True)
