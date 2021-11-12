@@ -51,10 +51,12 @@ class MainClass(Resource):
 			"status": "Got new data"
 		}
 	def post(self):
+		indata = request.get_json()
 		return {
 			"status": "Posted new data"
 		}
 	def put(self):
+		indata = request.get_json()
 		return {
 			"status": "Updated data"
 		}
@@ -70,10 +72,12 @@ class MainClass(Resource):
 			"status": "Get land data"
 		}
 	def post(self):
+		indata = request.get_json()
 		return {
 			"status": "Posted land data"
 		}
 	def put(self):
+		indata = request.get_json()
 		return {
 			"status": "Updated land data"
 		}
@@ -88,10 +92,12 @@ class MainClass(Resource):
 			"status": "Get farmer data"
 		}
 	def post(self):
+		indata = request.get_json()
 		return {
 			"status": "Posted farmer data"
 		}
 	def put(self):
+		indata = request.get_json()
 		return {
 			"status": "Updated farmer data"
 		}
@@ -106,10 +112,12 @@ class MainClass(Resource):
 			"status": "Get crop data"
 		}
 	def post(self):
+		indata = request.get_json()
 		return {
 			"status": "Posted crop data"
 		}
 	def put(self):
+		indata = request.get_json()
 		return {
 			"status": "Updated crop data"
 		}
@@ -124,9 +132,11 @@ class MainClass(Resource):
 		return { "status": "Get livestock data"}
 	
 	def post(self):
+		indata = request.get_json()
 		return { "status": "Add livestock data"}
 
 	def put(self):
+		indata = request.get_json()
 		return { "status": "Update livestock data"}
 
 	def delete(self):
@@ -138,9 +148,11 @@ class MainClass(Resource):
 		return { "status": "Get Activity data"}
 	
 	def post(self):
+		indata = request.get_json()
 		return { "status": "Add Activity data"}
 
 	def put(self):
+		indata = request.get_json()
 		return { "status": "Update Activity data"}
 
 	def delete(self):
@@ -152,9 +164,11 @@ class MainClass(Resource):
 		return { "status": "Get Prices data"}
 	
 	def post(self):
+		indata = request.get_json()
 		return { "status": "Add Prices data"}
 
 	def put(self):
+		indata = request.get_json()
 		return { "status": "Update Prices data"}
 
 	def delete(self):
@@ -166,9 +180,11 @@ class MainClass(Resource):
 		return { "status": "Get fertilizers data"}
 	
 	def post(self):
+		indata = request.get_json()
 		return { "status": "Add fertilizers data"}
 
 	def put(self):
+		indata = request.get_json()
 		return { "status": "Update fertilizers data"}
 
 	def delete(self):
@@ -180,9 +196,11 @@ class MainClass(Resource):
 		return { "status": "Get Precesion Farming data"}
 	
 	def post(self):
+		indata = request.get_json()
 		return { "status": "Add Precesion Farming data"}
 
 	def put(self):
+		indata = request.get_json()
 		return { "status": "Update Precesion Farming data"}
 
 	def delete(self):
@@ -195,9 +213,11 @@ class MainClass(Resource):
 		return { "status": "Get Farming loan data"}
 	
 	def post(self):
+		indata = request.get_json()
 		return { "status": "Add Farming loan data"}
 
 	def put(self):
+		indata = request.get_json()
 		return { "status": "Update Farming loan data"}
 
 	def delete(self):
@@ -210,9 +230,11 @@ class MainClass(Resource):
 		return { "status": "Get Credit data"}
 	
 	def post(self):
+		indata = request.get_json()
 		return { "status": "Add credit data"}
 
 	def put(self):
+		indata = request.get_json()
 		return { "status": "Update credit data"}
 
 	def delete(self):
@@ -225,9 +247,11 @@ class MainClass(Resource):
 		return { "status": "Get Seed data"}
 	
 	def post(self):
+		indata = request.get_json()
 		return { "status": "Add Seed data"}
 
 	def put(self):
+		indata = request.get_json()
 		return { "status": "Update Seed data"}
 
 	def delete(self):
@@ -240,9 +264,11 @@ class MainClass(Resource):
 		return { "status": "Get equipment data"}
 	
 	def post(self):
+		indata = request.get_json()
 		return { "status": "Add equipment  data"}
 
 	def put(self):
+		indata = request.get_json()
 		return { "status": "Update equipment data"}
 
 	def delete(self):
@@ -255,9 +281,11 @@ class MainClass(Resource):
 		return { "status": "Get soil testing data"}
 	
 	def post(self):
+		indata = request.get_json()
 		return { "status": "Add soil testing data"}
 
 	def put(self):
+		indata = request.get_json()
 		return { "status": "Update soil testing data"}
 
 	def delete(self):
@@ -270,9 +298,11 @@ class MainClass(Resource):
 		return { "status": "Get insurance data"}
 	
 	def post(self):
+		indata = request.get_json()
 		return { "status": "Add insurance data"}
 
 	def put(self):
+		indata = request.get_json()
 		return { "status": "Update insurance data"}
 
 	def delete(self):
@@ -285,9 +315,11 @@ class MainClass(Resource):
 		return { "status": "Get pesticide data"}
 	
 	def post(self):
+		indata = request.get_json()
 		return { "status": "Add pesticide data"}
 
 	def put(self):
+		indata = request.get_json()
 		return { "status": "Update pesticide data"}
 
 	def delete(self):
@@ -300,9 +332,11 @@ class MainClass(Resource):
 		return { "status": "Get land record data"}
 	
 	def post(self):
+		indata = request.get_json()
 		return { "status": "Add land record data"}
 
 	def put(self):
+		indata = request.get_json()
 		return { "status": "Update land record data"}
 
 	def delete(self):
@@ -315,9 +349,11 @@ class MainClass(Resource):
 		return { "status": "Get APMC data"}
 	
 	def post(self):
+		indata = request.get_json()
 		return { "status": "Add APMC data"}
 
 	def put(self):
+		indata = request.get_json()
 		return { "status": "Update APMC data"}
 
 	def delete(self):
@@ -330,9 +366,11 @@ class MainClass(Resource):
 		return { "status": "Get erigation data"}
 	
 	def post(self):
+		indata = request.get_json()
 		return { "status": "Add erigation data"}
 
 	def put(self):
+		indata = request.get_json()
 		return { "status": "Update erigation data"}
 
 	def delete(self):
@@ -345,9 +383,11 @@ class MainClass(Resource):
 		return { "status": "Get electricity data"}
 	
 	def post(self):
+		indata = request.get_json()
 		return { "status": "Add electricity data"}
 
 	def put(self):
+		indata = request.get_json()
 		return { "status": "Update electricity data"}
 
 	def delete(self):
@@ -360,9 +400,11 @@ class MainClass(Resource):
 		return { "status": "Get Food data"}
 	
 	def post(self):
+		indata = request.get_json()
 		return { "status": "Add Food data"}
 
 	def put(self):
+		indata = request.get_json()
 		return { "status": "Update Food data"}
 
 	def delete(self):
@@ -376,6 +418,7 @@ class MainClass(Resource):
 		return { "status": "Get Goverment schemes data"}
 	
 	def post(self):
+		indata = request.get_json()
 		return { "status": "Add Gov scheme data"}
 
 	def put(self):
@@ -391,9 +434,11 @@ class MainClass(Resource):
 		return { "status": "Get Credit schemes data"}
 	
 	def post(self):
+		indata = request.get_json()
 		return { "status": "Add Credit scheme data"}
 
 	def put(self):
+		indata = request.get_json()
 		return { "status": "Update Credit Scheme data"}
 
 	def delete(self):
@@ -406,9 +451,11 @@ class MainClass(Resource):
 		return { "status": "Get dairy schemes data"}
 	
 	def post(self):
+		indata = request.get_json()
 		return { "status": "Add dairy scheme data"}
 
 	def put(self):
+		indata = request.get_json()
 		return { "status": "Update dairy Scheme data"}
 
 	def delete(self):
@@ -421,9 +468,11 @@ class MainClass(Resource):
 		return { "status": "Get krishi knowledge data"}
 	
 	def post(self):
+		indata = request.get_json()
 		return { "status": "Add krishi knowledge  data"}
 
 	def put(self):
+		indata = request.get_json()
 		return { "status": "Update krishi knowledge data"}
 
 	def delete(self):
@@ -436,9 +485,11 @@ class MainClass(Resource):
 		return { "status": "Get crop detection info"}
 	
 	def post(self):
+		indata = request.get_json()
 		return { "status": "Detect crop type"}
 
 	def put(self):
+		indata = request.get_json()
 		return { "status": "Update crop info"}
 
 	def delete(self):
@@ -451,9 +502,11 @@ class MainClass(Resource):
 		return { "status": "Get crop disease detection info"}
 	
 	def post(self):
+		indata = request.get_json()
 		return { "status": "Detect crop disease type"}
 
 	def put(self):
+		indata = request.get_json()
 		return { "status": "Update crop disease info"}
 
 	def delete(self):
@@ -466,9 +519,11 @@ class MainClass(Resource):
 		return { "status": "Get water level info"}
 	
 	def post(self):
+		indata = request.get_json()
 		return { "status": "Add water level"}
 
 	def put(self):
+		indata = request.get_json()
 		return { "status": "Update water level"}
 
 	def delete(self):
@@ -481,9 +536,11 @@ class MainClass(Resource):
 		return { "status": "Get call center info"}
 	
 	def post(self):
+		indata = request.get_json()
 		return { "status": "Add call center info"}
 
 	def put(self):
+		indata = request.get_json()
 		return { "status": "Update call center info"}
 
 	def delete(self):
@@ -496,9 +553,11 @@ class MainClass(Resource):
 		return { "status": "Get farming education info"}
 	
 	def post(self):
+		indata = request.get_json()
 		return { "status": "Add farming education info"}
 
 	def put(self):
+		indata = request.get_json()
 		return { "status": "Update farming education info"}
 
 	def delete(self):
@@ -511,9 +570,11 @@ class MainClass(Resource):
 		return { "status": "Get farming platform info"}
 	
 	def post(self):
+		indata = request.get_json()
 		return { "status": "Add farming platform info"}
 
 	def put(self):
+		indata = request.get_json()
 		return { "status": "Update farming platform info"}
 
 	def delete(self):
