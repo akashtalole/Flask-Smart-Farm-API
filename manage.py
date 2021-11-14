@@ -44,6 +44,7 @@ callcenter_space = app.namespace('Call Center Info', description="Call Center In
 farmedu_space = app.namespace('Farming Education', description="Farming Education")
 farmplatform_space = app.namespace('Farming Platform', description="Farming Platform")
 agritech_space = app.namespace('Agritech Info', description="Agritech info")
+agrigigs_space = app.namespace('Agri Gigs Info', description="Agri Gigs info")
 
 @name_space.route("/")
 class MainClass(Resource):
@@ -597,5 +598,22 @@ class MainClass(Resource):
 
 	def delete(self):
 		return { "status": "Delete agritech info"}
+
+@agrigigs_space.route("/")
+class MainClass(Resource):
+
+	def get(self):
+		return { "status": "Get agri gigs info"}
+	
+	def post(self):
+		indata = request.get_json()
+		return { "status": "Add agri gigs info"}
+
+	def put(self):
+		indata = request.get_json()
+		return { "status": "Update agri gigs info"}
+
+	def delete(self):
+		return { "status": "Delete agri gigs info"}
 if __name__ == '__main__':
 	flask_app.run(host="0.0.0.0", debug=True)
