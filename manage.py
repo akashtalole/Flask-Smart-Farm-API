@@ -49,6 +49,7 @@ verticalfarm_space = app.namespace('Vertical Farming Info', description="Vertica
 laws_space = app.namespace('Agri Law Info', description="Agri Law info")
 contractfarming_space = app.namespace('Contract Farming Info', description="Contract Farming info")
 msp_space = app.namespace('MSP Info', description="MSP info")
+agristartup_space = app.namespace('Agri Startup Info', description="Agri Startup info")
 
 @name_space.route("/")
 class MainClass(Resource):
@@ -687,6 +688,23 @@ class MainClass(Resource):
 
 	def delete(self):
 		return { "status": "Delete MSP info"}
+
+@agristartup_space.route("/")
+class MainClass(Resource):
+
+	def get(self):
+		return { "status": "Get Agri Startup info"}
+	
+	def post(self):
+		indata = request.get_json()
+		return { "status": "Add Agri Startup Info"}
+
+	def put(self):
+		indata = request.get_json()
+		return { "status": "Update Agri startup Info"}
+
+	def delete(self):
+		return { "status": "Delete Agri Startup info"}
 
 if __name__ == '__main__':
 	flask_app.run(host="0.0.0.0", debug=True)
