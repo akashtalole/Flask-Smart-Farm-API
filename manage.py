@@ -622,7 +622,7 @@ class MainClass(Resource):
 	def delete(self):
 		return { "status": "Delete agri gigs info"}
 
-@varticalfarm_space.route("/")
+@verticalfarm_space.route("/")
 class MainClass(Resource):
 
 	def get(self):
@@ -639,7 +639,7 @@ class MainClass(Resource):
 	def delete(self):
 		return { "status": "Delete vertical farming info"}
 
-@law_space.route("/")
+@laws_space.route("/")
 class MainClass(Resource):
 
 	def get(self):
