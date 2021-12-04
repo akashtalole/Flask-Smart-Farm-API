@@ -1,0 +1,2084 @@
+{
+    "basePath": "/",
+    "consumes": [
+        "application/json"
+    ],
+    "info": {
+        "title": "API",
+        "version": "1.0"
+    },
+    "paths": {
+        "/APMC Data/": {
+            "delete": {
+                "operationId": "delete_main_class",
+                "responses": {
+                    "200": {
+                        "description": "Success"
+                    }
+                },
+                "tags": [
+                    "APMC Data"
+                ]
+            },
+            "get": {
+                "operationId": "get_main_class",
+                "responses": {
+                    "200": {
+                        "description": "Success"
+                    }
+                },
+                "tags": [
+                    "APMC Data"
+                ]
+            },
+            "post": {
+                "operationId": "post_main_class",
+                "responses": {
+                    "200": {
+                        "description": "Success"
+                    }
+                },
+                "tags": [
+                    "APMC Data"
+                ]
+            },
+            "put": {
+                "operationId": "put_main_class",
+                "responses": {
+                    "200": {
+                        "description": "Success"
+                    }
+                },
+                "tags": [
+                    "APMC Data"
+                ]
+            }
+        },
+        "/Activities/": {
+            "delete": {
+                "operationId": "delete_main_class",
+                "responses": {
+                    "200": {
+                        "description": "Success"
+                    }
+                },
+                "tags": [
+                    "Activities"
+                ]
+            },
+            "get": {
+                "operationId": "get_main_class",
+                "responses": {
+                    "200": {
+                        "description": "Success"
+                    }
+                },
+                "tags": [
+                    "Activities"
+                ]
+            },
+            "post": {
+                "operationId": "post_main_class",
+                "responses": {
+                    "200": {
+                        "description": "Success"
+                    }
+                },
+                "tags": [
+                    "Activities"
+                ]
+            },
+            "put": {
+                "operationId": "put_main_class",
+                "responses": {
+                    "200": {
+                        "description": "Success"
+                    }
+                },
+                "tags": [
+                    "Activities"
+                ]
+            }
+        },
+        "/Agri Gigs Info/": {
+            "delete": {
+                "operationId": "delete_main_class",
+                "responses": {
+                    "200": {
+                        "description": "Success"
+                    }
+                },
+                "tags": [
+                    "Agri Gigs Info"
+                ]
+            },
+            "get": {
+                "operationId": "get_main_class",
+                "responses": {
+                    "200": {
+                        "description": "Success"
+                    }
+                },
+                "tags": [
+                    "Agri Gigs Info"
+                ]
+            },
+            "post": {
+                "operationId": "post_main_class",
+                "responses": {
+                    "200": {
+                        "description": "Success"
+                    }
+                },
+                "tags": [
+                    "Agri Gigs Info"
+                ]
+            },
+            "put": {
+                "operationId": "put_main_class",
+                "responses": {
+                    "200": {
+                        "description": "Success"
+                    }
+                },
+                "tags": [
+                    "Agri Gigs Info"
+                ]
+            }
+        },
+        "/Agri Law Info/": {
+            "delete": {
+                "operationId": "delete_main_class",
+                "responses": {
+                    "200": {
+                        "description": "Success"
+                    }
+                },
+                "tags": [
+                    "Agri Law Info"
+                ]
+            },
+            "get": {
+                "operationId": "get_main_class",
+                "responses": {
+                    "200": {
+                        "description": "Success"
+                    }
+                },
+                "tags": [
+                    "Agri Law Info"
+                ]
+            },
+            "post": {
+                "operationId": "post_main_class",
+                "responses": {
+                    "200": {
+                        "description": "Success"
+                    }
+                },
+                "tags": [
+                    "Agri Law Info"
+                ]
+            },
+            "put": {
+                "operationId": "put_main_class",
+                "responses": {
+                    "200": {
+                        "description": "Success"
+                    }
+                },
+                "tags": [
+                    "Agri Law Info"
+                ]
+            }
+        },
+        "/Agri Startup Info/": {
+            "delete": {
+                "operationId": "delete_main_class",
+                "responses": {
+                    "200": {
+                        "description": "Success"
+                    }
+                },
+                "tags": [
+                    "Agri Startup Info"
+                ]
+            },
+            "get": {
+                "operationId": "get_main_class",
+                "responses": {
+                    "200": {
+                        "description": "Success"
+                    }
+                },
+                "tags": [
+                    "Agri Startup Info"
+                ]
+            },
+            "post": {
+                "operationId": "post_main_class",
+                "responses": {
+                    "200": {
+                        "description": "Success"
+                    }
+                },
+                "tags": [
+                    "Agri Startup Info"
+                ]
+            },
+            "put": {
+                "operationId": "put_main_class",
+                "responses": {
+                    "200": {
+                        "description": "Success"
+                    }
+                },
+                "tags": [
+                    "Agri Startup Info"
+                ]
+            }
+        },
+        "/Agritech Info/": {
+            "delete": {
+                "operationId": "delete_main_class",
+                "responses": {
+                    "200": {
+                        "description": "Success"
+                    }
+                },
+                "tags": [
+                    "Agritech Info"
+                ]
+            },
+            "get": {
+                "operationId": "get_main_class",
+                "responses": {
+                    "200": {
+                        "description": "Success"
+                    }
+                },
+                "tags": [
+                    "Agritech Info"
+                ]
+            },
+            "post": {
+                "operationId": "post_main_class",
+                "responses": {
+                    "200": {
+                        "description": "Success"
+                    }
+                },
+                "tags": [
+                    "Agritech Info"
+                ]
+            },
+            "put": {
+                "operationId": "put_main_class",
+                "responses": {
+                    "200": {
+                        "description": "Success"
+                    }
+                },
+                "tags": [
+                    "Agritech Info"
+                ]
+            }
+        },
+        "/Call Center Info/": {
+            "delete": {
+                "operationId": "delete_main_class",
+                "responses": {
+                    "200": {
+                        "description": "Success"
+                    }
+                },
+                "tags": [
+                    "Call Center Info"
+                ]
+            },
+            "get": {
+                "operationId": "get_main_class",
+                "responses": {
+                    "200": {
+                        "description": "Success"
+                    }
+                },
+                "tags": [
+                    "Call Center Info"
+                ]
+            },
+            "post": {
+                "operationId": "post_main_class",
+                "responses": {
+                    "200": {
+                        "description": "Success"
+                    }
+                },
+                "tags": [
+                    "Call Center Info"
+                ]
+            },
+            "put": {
+                "operationId": "put_main_class",
+                "responses": {
+                    "200": {
+                        "description": "Success"
+                    }
+                },
+                "tags": [
+                    "Call Center Info"
+                ]
+            }
+        },
+        "/Cold Storage Info/": {
+            "delete": {
+                "operationId": "delete_main_class",
+                "responses": {
+                    "200": {
+                        "description": "Success"
+                    }
+                },
+                "tags": [
+                    "Cold Storage Info"
+                ]
+            },
+            "get": {
+                "operationId": "get_main_class",
+                "responses": {
+                    "200": {
+                        "description": "Success"
+                    }
+                },
+                "tags": [
+                    "Cold Storage Info"
+                ]
+            },
+            "post": {
+                "operationId": "post_main_class",
+                "responses": {
+                    "200": {
+                        "description": "Success"
+                    }
+                },
+                "tags": [
+                    "Cold Storage Info"
+                ]
+            },
+            "put": {
+                "operationId": "put_main_class",
+                "responses": {
+                    "200": {
+                        "description": "Success"
+                    }
+                },
+                "tags": [
+                    "Cold Storage Info"
+                ]
+            }
+        },
+        "/Contract Farming Info/": {
+            "delete": {
+                "operationId": "delete_main_class",
+                "responses": {
+                    "200": {
+                        "description": "Success"
+                    }
+                },
+                "tags": [
+                    "Contract Farming Info"
+                ]
+            },
+            "get": {
+                "operationId": "get_main_class",
+                "responses": {
+                    "200": {
+                        "description": "Success"
+                    }
+                },
+                "tags": [
+                    "Contract Farming Info"
+                ]
+            },
+            "post": {
+                "operationId": "post_main_class",
+                "responses": {
+                    "200": {
+                        "description": "Success"
+                    }
+                },
+                "tags": [
+                    "Contract Farming Info"
+                ]
+            },
+            "put": {
+                "operationId": "put_main_class",
+                "responses": {
+                    "200": {
+                        "description": "Success"
+                    }
+                },
+                "tags": [
+                    "Contract Farming Info"
+                ]
+            }
+        },
+        "/Credit Scheme/": {
+            "delete": {
+                "operationId": "delete_main_class",
+                "responses": {
+                    "200": {
+                        "description": "Success"
+                    }
+                },
+                "tags": [
+                    "Credit Scheme"
+                ]
+            },
+            "get": {
+                "operationId": "get_main_class",
+                "responses": {
+                    "200": {
+                        "description": "Success"
+                    }
+                },
+                "tags": [
+                    "Credit Scheme"
+                ]
+            },
+            "post": {
+                "operationId": "post_main_class",
+                "responses": {
+                    "200": {
+                        "description": "Success"
+                    }
+                },
+                "tags": [
+                    "Credit Scheme"
+                ]
+            },
+            "put": {
+                "operationId": "put_main_class",
+                "responses": {
+                    "200": {
+                        "description": "Success"
+                    }
+                },
+                "tags": [
+                    "Credit Scheme"
+                ]
+            }
+        },
+        "/Crop Detection API/": {
+            "delete": {
+                "operationId": "delete_main_class",
+                "responses": {
+                    "200": {
+                        "description": "Success"
+                    }
+                },
+                "tags": [
+                    "Crop Detection API"
+                ]
+            },
+            "get": {
+                "operationId": "get_main_class",
+                "responses": {
+                    "200": {
+                        "description": "Success"
+                    }
+                },
+                "tags": [
+                    "Crop Detection API"
+                ]
+            },
+            "post": {
+                "operationId": "post_main_class",
+                "responses": {
+                    "200": {
+                        "description": "Success"
+                    }
+                },
+                "tags": [
+                    "Crop Detection API"
+                ]
+            },
+            "put": {
+                "operationId": "put_main_class",
+                "responses": {
+                    "200": {
+                        "description": "Success"
+                    }
+                },
+                "tags": [
+                    "Crop Detection API"
+                ]
+            }
+        },
+        "/Crop Disease Detection API/": {
+            "delete": {
+                "operationId": "delete_main_class",
+                "responses": {
+                    "200": {
+                        "description": "Success"
+                    }
+                },
+                "tags": [
+                    "Crop Disease Detection API"
+                ]
+            },
+            "get": {
+                "operationId": "get_main_class",
+                "responses": {
+                    "200": {
+                        "description": "Success"
+                    }
+                },
+                "tags": [
+                    "Crop Disease Detection API"
+                ]
+            },
+            "post": {
+                "operationId": "post_main_class",
+                "responses": {
+                    "200": {
+                        "description": "Success"
+                    }
+                },
+                "tags": [
+                    "Crop Disease Detection API"
+                ]
+            },
+            "put": {
+                "operationId": "put_main_class",
+                "responses": {
+                    "200": {
+                        "description": "Success"
+                    }
+                },
+                "tags": [
+                    "Crop Disease Detection API"
+                ]
+            }
+        },
+        "/Crop/": {
+            "delete": {
+                "operationId": "delete_main_class",
+                "responses": {
+                    "200": {
+                        "description": "Success"
+                    }
+                },
+                "tags": [
+                    "Crop"
+                ]
+            },
+            "get": {
+                "operationId": "get_main_class",
+                "responses": {
+                    "200": {
+                        "description": "Success"
+                    }
+                },
+                "tags": [
+                    "Crop"
+                ]
+            },
+            "post": {
+                "operationId": "post_main_class",
+                "responses": {
+                    "200": {
+                        "description": "Success"
+                    }
+                },
+                "tags": [
+                    "Crop"
+                ]
+            },
+            "put": {
+                "operationId": "put_main_class",
+                "responses": {
+                    "200": {
+                        "description": "Success"
+                    }
+                },
+                "tags": [
+                    "Crop"
+                ]
+            }
+        },
+        "/Dairy Scheme/": {
+            "delete": {
+                "operationId": "delete_main_class",
+                "responses": {
+                    "200": {
+                        "description": "Success"
+                    }
+                },
+                "tags": [
+                    "Dairy Scheme"
+                ]
+            },
+            "get": {
+                "operationId": "get_main_class",
+                "responses": {
+                    "200": {
+                        "description": "Success"
+                    }
+                },
+                "tags": [
+                    "Dairy Scheme"
+                ]
+            },
+            "post": {
+                "operationId": "post_main_class",
+                "responses": {
+                    "200": {
+                        "description": "Success"
+                    }
+                },
+                "tags": [
+                    "Dairy Scheme"
+                ]
+            },
+            "put": {
+                "operationId": "put_main_class",
+                "responses": {
+                    "200": {
+                        "description": "Success"
+                    }
+                },
+                "tags": [
+                    "Dairy Scheme"
+                ]
+            }
+        },
+        "/Electricity/": {
+            "delete": {
+                "operationId": "delete_main_class",
+                "responses": {
+                    "200": {
+                        "description": "Success"
+                    }
+                },
+                "tags": [
+                    "Electricity"
+                ]
+            },
+            "get": {
+                "operationId": "get_main_class",
+                "responses": {
+                    "200": {
+                        "description": "Success"
+                    }
+                },
+                "tags": [
+                    "Electricity"
+                ]
+            },
+            "post": {
+                "operationId": "post_main_class",
+                "responses": {
+                    "200": {
+                        "description": "Success"
+                    }
+                },
+                "tags": [
+                    "Electricity"
+                ]
+            },
+            "put": {
+                "operationId": "put_main_class",
+                "responses": {
+                    "200": {
+                        "description": "Success"
+                    }
+                },
+                "tags": [
+                    "Electricity"
+                ]
+            }
+        },
+        "/Equipment Management/": {
+            "delete": {
+                "operationId": "delete_main_class",
+                "responses": {
+                    "200": {
+                        "description": "Success"
+                    }
+                },
+                "tags": [
+                    "Equipment Management"
+                ]
+            },
+            "get": {
+                "operationId": "get_main_class",
+                "responses": {
+                    "200": {
+                        "description": "Success"
+                    }
+                },
+                "tags": [
+                    "Equipment Management"
+                ]
+            },
+            "post": {
+                "operationId": "post_main_class",
+                "responses": {
+                    "200": {
+                        "description": "Success"
+                    }
+                },
+                "tags": [
+                    "Equipment Management"
+                ]
+            },
+            "put": {
+                "operationId": "put_main_class",
+                "responses": {
+                    "200": {
+                        "description": "Success"
+                    }
+                },
+                "tags": [
+                    "Equipment Management"
+                ]
+            }
+        },
+        "/Erigation Management/": {
+            "delete": {
+                "operationId": "delete_main_class",
+                "responses": {
+                    "200": {
+                        "description": "Success"
+                    }
+                },
+                "tags": [
+                    "Erigation Management"
+                ]
+            },
+            "get": {
+                "operationId": "get_main_class",
+                "responses": {
+                    "200": {
+                        "description": "Success"
+                    }
+                },
+                "tags": [
+                    "Erigation Management"
+                ]
+            },
+            "post": {
+                "operationId": "post_main_class",
+                "responses": {
+                    "200": {
+                        "description": "Success"
+                    }
+                },
+                "tags": [
+                    "Erigation Management"
+                ]
+            },
+            "put": {
+                "operationId": "put_main_class",
+                "responses": {
+                    "200": {
+                        "description": "Success"
+                    }
+                },
+                "tags": [
+                    "Erigation Management"
+                ]
+            }
+        },
+        "/Farm/": {
+            "delete": {
+                "operationId": "delete_main_class",
+                "responses": {
+                    "200": {
+                        "description": "Success"
+                    }
+                },
+                "tags": [
+                    "Farm"
+                ]
+            },
+            "get": {
+                "operationId": "get_main_class",
+                "responses": {
+                    "200": {
+                        "description": "Success"
+                    }
+                },
+                "tags": [
+                    "Farm"
+                ]
+            },
+            "post": {
+                "operationId": "post_main_class",
+                "responses": {
+                    "200": {
+                        "description": "Success"
+                    }
+                },
+                "tags": [
+                    "Farm"
+                ]
+            },
+            "put": {
+                "operationId": "put_main_class",
+                "responses": {
+                    "200": {
+                        "description": "Success"
+                    }
+                },
+                "tags": [
+                    "Farm"
+                ]
+            }
+        },
+        "/Farmer/": {
+            "delete": {
+                "operationId": "delete_main_class",
+                "responses": {
+                    "200": {
+                        "description": "Success"
+                    }
+                },
+                "tags": [
+                    "Farmer"
+                ]
+            },
+            "get": {
+                "operationId": "get_main_class",
+                "responses": {
+                    "200": {
+                        "description": "Success"
+                    }
+                },
+                "tags": [
+                    "Farmer"
+                ]
+            },
+            "post": {
+                "operationId": "post_main_class",
+                "responses": {
+                    "200": {
+                        "description": "Success"
+                    }
+                },
+                "tags": [
+                    "Farmer"
+                ]
+            },
+            "put": {
+                "operationId": "put_main_class",
+                "responses": {
+                    "200": {
+                        "description": "Success"
+                    }
+                },
+                "tags": [
+                    "Farmer"
+                ]
+            }
+        },
+        "/Farming Education/": {
+            "delete": {
+                "operationId": "delete_main_class",
+                "responses": {
+                    "200": {
+                        "description": "Success"
+                    }
+                },
+                "tags": [
+                    "Farming Education"
+                ]
+            },
+            "get": {
+                "operationId": "get_main_class",
+                "responses": {
+                    "200": {
+                        "description": "Success"
+                    }
+                },
+                "tags": [
+                    "Farming Education"
+                ]
+            },
+            "post": {
+                "operationId": "post_main_class",
+                "responses": {
+                    "200": {
+                        "description": "Success"
+                    }
+                },
+                "tags": [
+                    "Farming Education"
+                ]
+            },
+            "put": {
+                "operationId": "put_main_class",
+                "responses": {
+                    "200": {
+                        "description": "Success"
+                    }
+                },
+                "tags": [
+                    "Farming Education"
+                ]
+            }
+        },
+        "/Farming Platform/": {
+            "delete": {
+                "operationId": "delete_main_class",
+                "responses": {
+                    "200": {
+                        "description": "Success"
+                    }
+                },
+                "tags": [
+                    "Farming Platform"
+                ]
+            },
+            "get": {
+                "operationId": "get_main_class",
+                "responses": {
+                    "200": {
+                        "description": "Success"
+                    }
+                },
+                "tags": [
+                    "Farming Platform"
+                ]
+            },
+            "post": {
+                "operationId": "post_main_class",
+                "responses": {
+                    "200": {
+                        "description": "Success"
+                    }
+                },
+                "tags": [
+                    "Farming Platform"
+                ]
+            },
+            "put": {
+                "operationId": "put_main_class",
+                "responses": {
+                    "200": {
+                        "description": "Success"
+                    }
+                },
+                "tags": [
+                    "Farming Platform"
+                ]
+            }
+        },
+        "/Fertilizers/": {
+            "delete": {
+                "operationId": "delete_main_class",
+                "responses": {
+                    "200": {
+                        "description": "Success"
+                    }
+                },
+                "tags": [
+                    "Fertilizers"
+                ]
+            },
+            "get": {
+                "operationId": "get_main_class",
+                "responses": {
+                    "200": {
+                        "description": "Success"
+                    }
+                },
+                "tags": [
+                    "Fertilizers"
+                ]
+            },
+            "post": {
+                "operationId": "post_main_class",
+                "responses": {
+                    "200": {
+                        "description": "Success"
+                    }
+                },
+                "tags": [
+                    "Fertilizers"
+                ]
+            },
+            "put": {
+                "operationId": "put_main_class",
+                "responses": {
+                    "200": {
+                        "description": "Success"
+                    }
+                },
+                "tags": [
+                    "Fertilizers"
+                ]
+            }
+        },
+        "/Food/": {
+            "delete": {
+                "operationId": "delete_main_class",
+                "responses": {
+                    "200": {
+                        "description": "Success"
+                    }
+                },
+                "tags": [
+                    "Food"
+                ]
+            },
+            "get": {
+                "operationId": "get_main_class",
+                "responses": {
+                    "200": {
+                        "description": "Success"
+                    }
+                },
+                "tags": [
+                    "Food"
+                ]
+            },
+            "post": {
+                "operationId": "post_main_class",
+                "responses": {
+                    "200": {
+                        "description": "Success"
+                    }
+                },
+                "tags": [
+                    "Food"
+                ]
+            },
+            "put": {
+                "operationId": "put_main_class",
+                "responses": {
+                    "200": {
+                        "description": "Success"
+                    }
+                },
+                "tags": [
+                    "Food"
+                ]
+            }
+        },
+        "/Gov Scheme/": {
+            "delete": {
+                "operationId": "delete_main_class",
+                "responses": {
+                    "200": {
+                        "description": "Success"
+                    }
+                },
+                "tags": [
+                    "Gov Scheme"
+                ]
+            },
+            "get": {
+                "operationId": "get_main_class",
+                "responses": {
+                    "200": {
+                        "description": "Success"
+                    }
+                },
+                "tags": [
+                    "Gov Scheme"
+                ]
+            },
+            "post": {
+                "operationId": "post_main_class",
+                "responses": {
+                    "200": {
+                        "description": "Success"
+                    }
+                },
+                "tags": [
+                    "Gov Scheme"
+                ]
+            },
+            "put": {
+                "operationId": "put_main_class",
+                "responses": {
+                    "200": {
+                        "description": "Success"
+                    }
+                },
+                "tags": [
+                    "Gov Scheme"
+                ]
+            }
+        },
+        "/Insurance/": {
+            "delete": {
+                "operationId": "delete_main_class",
+                "responses": {
+                    "200": {
+                        "description": "Success"
+                    }
+                },
+                "tags": [
+                    "Insurance"
+                ]
+            },
+            "get": {
+                "operationId": "get_main_class",
+                "responses": {
+                    "200": {
+                        "description": "Success"
+                    }
+                },
+                "tags": [
+                    "Insurance"
+                ]
+            },
+            "post": {
+                "operationId": "post_main_class",
+                "responses": {
+                    "200": {
+                        "description": "Success"
+                    }
+                },
+                "tags": [
+                    "Insurance"
+                ]
+            },
+            "put": {
+                "operationId": "put_main_class",
+                "responses": {
+                    "200": {
+                        "description": "Success"
+                    }
+                },
+                "tags": [
+                    "Insurance"
+                ]
+            }
+        },
+        "/Krishi Knowledge/": {
+            "delete": {
+                "operationId": "delete_main_class",
+                "responses": {
+                    "200": {
+                        "description": "Success"
+                    }
+                },
+                "tags": [
+                    "Krishi Knowledge"
+                ]
+            },
+            "get": {
+                "operationId": "get_main_class",
+                "responses": {
+                    "200": {
+                        "description": "Success"
+                    }
+                },
+                "tags": [
+                    "Krishi Knowledge"
+                ]
+            },
+            "post": {
+                "operationId": "post_main_class",
+                "responses": {
+                    "200": {
+                        "description": "Success"
+                    }
+                },
+                "tags": [
+                    "Krishi Knowledge"
+                ]
+            },
+            "put": {
+                "operationId": "put_main_class",
+                "responses": {
+                    "200": {
+                        "description": "Success"
+                    }
+                },
+                "tags": [
+                    "Krishi Knowledge"
+                ]
+            }
+        },
+        "/Land Record/": {
+            "delete": {
+                "operationId": "delete_main_class",
+                "responses": {
+                    "200": {
+                        "description": "Success"
+                    }
+                },
+                "tags": [
+                    "Land Record"
+                ]
+            },
+            "get": {
+                "operationId": "get_main_class",
+                "responses": {
+                    "200": {
+                        "description": "Success"
+                    }
+                },
+                "tags": [
+                    "Land Record"
+                ]
+            },
+            "post": {
+                "operationId": "post_main_class",
+                "responses": {
+                    "200": {
+                        "description": "Success"
+                    }
+                },
+                "tags": [
+                    "Land Record"
+                ]
+            },
+            "put": {
+                "operationId": "put_main_class",
+                "responses": {
+                    "200": {
+                        "description": "Success"
+                    }
+                },
+                "tags": [
+                    "Land Record"
+                ]
+            }
+        },
+        "/Land/": {
+            "delete": {
+                "operationId": "delete_main_class",
+                "responses": {
+                    "200": {
+                        "description": "Success"
+                    }
+                },
+                "tags": [
+                    "Land"
+                ]
+            },
+            "get": {
+                "operationId": "get_main_class",
+                "responses": {
+                    "200": {
+                        "description": "Success"
+                    }
+                },
+                "tags": [
+                    "Land"
+                ]
+            },
+            "post": {
+                "operationId": "post_main_class",
+                "responses": {
+                    "200": {
+                        "description": "Success"
+                    }
+                },
+                "tags": [
+                    "Land"
+                ]
+            },
+            "put": {
+                "operationId": "put_main_class",
+                "responses": {
+                    "200": {
+                        "description": "Success"
+                    }
+                },
+                "tags": [
+                    "Land"
+                ]
+            }
+        },
+        "/Livestock/": {
+            "delete": {
+                "operationId": "delete_main_class",
+                "responses": {
+                    "200": {
+                        "description": "Success"
+                    }
+                },
+                "tags": [
+                    "Livestock"
+                ]
+            },
+            "get": {
+                "operationId": "get_main_class",
+                "responses": {
+                    "200": {
+                        "description": "Success"
+                    }
+                },
+                "tags": [
+                    "Livestock"
+                ]
+            },
+            "post": {
+                "operationId": "post_main_class",
+                "responses": {
+                    "200": {
+                        "description": "Success"
+                    }
+                },
+                "tags": [
+                    "Livestock"
+                ]
+            },
+            "put": {
+                "operationId": "put_main_class",
+                "responses": {
+                    "200": {
+                        "description": "Success"
+                    }
+                },
+                "tags": [
+                    "Livestock"
+                ]
+            }
+        },
+        "/Loan Management/": {
+            "delete": {
+                "operationId": "delete_main_class",
+                "responses": {
+                    "200": {
+                        "description": "Success"
+                    }
+                },
+                "tags": [
+                    "Loan Management"
+                ]
+            },
+            "get": {
+                "operationId": "get_main_class",
+                "responses": {
+                    "200": {
+                        "description": "Success"
+                    }
+                },
+                "tags": [
+                    "Loan Management"
+                ]
+            },
+            "post": {
+                "operationId": "post_main_class",
+                "responses": {
+                    "200": {
+                        "description": "Success"
+                    }
+                },
+                "tags": [
+                    "Loan Management"
+                ]
+            },
+            "put": {
+                "operationId": "put_main_class",
+                "responses": {
+                    "200": {
+                        "description": "Success"
+                    }
+                },
+                "tags": [
+                    "Loan Management"
+                ]
+            }
+        },
+        "/MArket Info/": {
+            "delete": {
+                "operationId": "delete_main_class",
+                "responses": {
+                    "200": {
+                        "description": "Success"
+                    }
+                },
+                "tags": [
+                    "MArket Info"
+                ]
+            },
+            "get": {
+                "operationId": "get_main_class",
+                "responses": {
+                    "200": {
+                        "description": "Success"
+                    }
+                },
+                "tags": [
+                    "MArket Info"
+                ]
+            },
+            "post": {
+                "operationId": "post_main_class",
+                "responses": {
+                    "200": {
+                        "description": "Success"
+                    }
+                },
+                "tags": [
+                    "MArket Info"
+                ]
+            },
+            "put": {
+                "operationId": "put_main_class",
+                "responses": {
+                    "200": {
+                        "description": "Success"
+                    }
+                },
+                "tags": [
+                    "MArket Info"
+                ]
+            }
+        },
+        "/MSP Info/": {
+            "delete": {
+                "operationId": "delete_main_class",
+                "responses": {
+                    "200": {
+                        "description": "Success"
+                    }
+                },
+                "tags": [
+                    "MSP Info"
+                ]
+            },
+            "get": {
+                "operationId": "get_main_class",
+                "responses": {
+                    "200": {
+                        "description": "Success"
+                    }
+                },
+                "tags": [
+                    "MSP Info"
+                ]
+            },
+            "post": {
+                "operationId": "post_main_class",
+                "responses": {
+                    "200": {
+                        "description": "Success"
+                    }
+                },
+                "tags": [
+                    "MSP Info"
+                ]
+            },
+            "put": {
+                "operationId": "put_main_class",
+                "responses": {
+                    "200": {
+                        "description": "Success"
+                    }
+                },
+                "tags": [
+                    "MSP Info"
+                ]
+            }
+        },
+        "/Pesticide management/": {
+            "delete": {
+                "operationId": "delete_main_class",
+                "responses": {
+                    "200": {
+                        "description": "Success"
+                    }
+                },
+                "tags": [
+                    "Pesticide management"
+                ]
+            },
+            "get": {
+                "operationId": "get_main_class",
+                "responses": {
+                    "200": {
+                        "description": "Success"
+                    }
+                },
+                "tags": [
+                    "Pesticide management"
+                ]
+            },
+            "post": {
+                "operationId": "post_main_class",
+                "responses": {
+                    "200": {
+                        "description": "Success"
+                    }
+                },
+                "tags": [
+                    "Pesticide management"
+                ]
+            },
+            "put": {
+                "operationId": "put_main_class",
+                "responses": {
+                    "200": {
+                        "description": "Success"
+                    }
+                },
+                "tags": [
+                    "Pesticide management"
+                ]
+            }
+        },
+        "/Precesion Farming/": {
+            "delete": {
+                "operationId": "delete_main_class",
+                "responses": {
+                    "200": {
+                        "description": "Success"
+                    }
+                },
+                "tags": [
+                    "Precesion Farming"
+                ]
+            },
+            "get": {
+                "operationId": "get_main_class",
+                "responses": {
+                    "200": {
+                        "description": "Success"
+                    }
+                },
+                "tags": [
+                    "Precesion Farming"
+                ]
+            },
+            "post": {
+                "operationId": "post_main_class",
+                "responses": {
+                    "200": {
+                        "description": "Success"
+                    }
+                },
+                "tags": [
+                    "Precesion Farming"
+                ]
+            },
+            "put": {
+                "operationId": "put_main_class",
+                "responses": {
+                    "200": {
+                        "description": "Success"
+                    }
+                },
+                "tags": [
+                    "Precesion Farming"
+                ]
+            }
+        },
+        "/Prices/": {
+            "delete": {
+                "operationId": "delete_main_class",
+                "responses": {
+                    "200": {
+                        "description": "Success"
+                    }
+                },
+                "tags": [
+                    "Prices"
+                ]
+            },
+            "get": {
+                "operationId": "get_main_class",
+                "responses": {
+                    "200": {
+                        "description": "Success"
+                    }
+                },
+                "tags": [
+                    "Prices"
+                ]
+            },
+            "post": {
+                "operationId": "post_main_class",
+                "responses": {
+                    "200": {
+                        "description": "Success"
+                    }
+                },
+                "tags": [
+                    "Prices"
+                ]
+            },
+            "put": {
+                "operationId": "put_main_class",
+                "responses": {
+                    "200": {
+                        "description": "Success"
+                    }
+                },
+                "tags": [
+                    "Prices"
+                ]
+            }
+        },
+        "/Seed Management/": {
+            "delete": {
+                "operationId": "delete_main_class",
+                "responses": {
+                    "200": {
+                        "description": "Success"
+                    }
+                },
+                "tags": [
+                    "Seed Management"
+                ]
+            },
+            "get": {
+                "operationId": "get_main_class",
+                "responses": {
+                    "200": {
+                        "description": "Success"
+                    }
+                },
+                "tags": [
+                    "Seed Management"
+                ]
+            },
+            "post": {
+                "operationId": "post_main_class",
+                "responses": {
+                    "200": {
+                        "description": "Success"
+                    }
+                },
+                "tags": [
+                    "Seed Management"
+                ]
+            },
+            "put": {
+                "operationId": "put_main_class",
+                "responses": {
+                    "200": {
+                        "description": "Success"
+                    }
+                },
+                "tags": [
+                    "Seed Management"
+                ]
+            }
+        },
+        "/Society Info/": {
+            "delete": {
+                "operationId": "delete_main_class",
+                "responses": {
+                    "200": {
+                        "description": "Success"
+                    }
+                },
+                "tags": [
+                    "Society Info"
+                ]
+            },
+            "get": {
+                "operationId": "get_main_class",
+                "responses": {
+                    "200": {
+                        "description": "Success"
+                    }
+                },
+                "tags": [
+                    "Society Info"
+                ]
+            },
+            "post": {
+                "operationId": "post_main_class",
+                "responses": {
+                    "200": {
+                        "description": "Success"
+                    }
+                },
+                "tags": [
+                    "Society Info"
+                ]
+            },
+            "put": {
+                "operationId": "put_main_class",
+                "responses": {
+                    "200": {
+                        "description": "Success"
+                    }
+                },
+                "tags": [
+                    "Society Info"
+                ]
+            }
+        },
+        "/Soil Testing/": {
+            "delete": {
+                "operationId": "delete_main_class",
+                "responses": {
+                    "200": {
+                        "description": "Success"
+                    }
+                },
+                "tags": [
+                    "Soil Testing"
+                ]
+            },
+            "get": {
+                "operationId": "get_main_class",
+                "responses": {
+                    "200": {
+                        "description": "Success"
+                    }
+                },
+                "tags": [
+                    "Soil Testing"
+                ]
+            },
+            "post": {
+                "operationId": "post_main_class",
+                "responses": {
+                    "200": {
+                        "description": "Success"
+                    }
+                },
+                "tags": [
+                    "Soil Testing"
+                ]
+            },
+            "put": {
+                "operationId": "put_main_class",
+                "responses": {
+                    "200": {
+                        "description": "Success"
+                    }
+                },
+                "tags": [
+                    "Soil Testing"
+                ]
+            }
+        },
+        "/Vertical Farming Info/": {
+            "delete": {
+                "operationId": "delete_main_class",
+                "responses": {
+                    "200": {
+                        "description": "Success"
+                    }
+                },
+                "tags": [
+                    "Vertical Farming Info"
+                ]
+            },
+            "get": {
+                "operationId": "get_main_class",
+                "responses": {
+                    "200": {
+                        "description": "Success"
+                    }
+                },
+                "tags": [
+                    "Vertical Farming Info"
+                ]
+            },
+            "post": {
+                "operationId": "post_main_class",
+                "responses": {
+                    "200": {
+                        "description": "Success"
+                    }
+                },
+                "tags": [
+                    "Vertical Farming Info"
+                ]
+            },
+            "put": {
+                "operationId": "put_main_class",
+                "responses": {
+                    "200": {
+                        "description": "Success"
+                    }
+                },
+                "tags": [
+                    "Vertical Farming Info"
+                ]
+            }
+        },
+        "/Water MAnagement/": {
+            "delete": {
+                "operationId": "delete_main_class",
+                "responses": {
+                    "200": {
+                        "description": "Success"
+                    }
+                },
+                "tags": [
+                    "Water MAnagement"
+                ]
+            },
+            "get": {
+                "operationId": "get_main_class",
+                "responses": {
+                    "200": {
+                        "description": "Success"
+                    }
+                },
+                "tags": [
+                    "Water MAnagement"
+                ]
+            },
+            "post": {
+                "operationId": "post_main_class",
+                "responses": {
+                    "200": {
+                        "description": "Success"
+                    }
+                },
+                "tags": [
+                    "Water MAnagement"
+                ]
+            },
+            "put": {
+                "operationId": "put_main_class",
+                "responses": {
+                    "200": {
+                        "description": "Success"
+                    }
+                },
+                "tags": [
+                    "Water MAnagement"
+                ]
+            }
+        },
+        "/Weather Info/": {
+            "delete": {
+                "operationId": "delete_main_class",
+                "responses": {
+                    "200": {
+                        "description": "Success"
+                    }
+                },
+                "tags": [
+                    "Weather Info"
+                ]
+            },
+            "get": {
+                "operationId": "get_main_class",
+                "responses": {
+                    "200": {
+                        "description": "Success"
+                    }
+                },
+                "tags": [
+                    "Weather Info"
+                ]
+            },
+            "post": {
+                "operationId": "post_main_class",
+                "responses": {
+                    "200": {
+                        "description": "Success"
+                    }
+                },
+                "tags": [
+                    "Weather Info"
+                ]
+            },
+            "put": {
+                "operationId": "put_main_class",
+                "responses": {
+                    "200": {
+                        "description": "Success"
+                    }
+                },
+                "tags": [
+                    "Weather Info"
+                ]
+            }
+        }
+    },
+    "produces": [
+        "application/json"
+    ],
+    "responses": {
+        "MaskError": {
+            "description": "When any error occurs on mask"
+        },
+        "ParseError": {
+            "description": "When a mask can't be parsed"
+        }
+    },
+    "swagger": "2.0",
+    "tags": [
+        {
+            "description": "Default namespace",
+            "name": "default"
+        },
+        {
+            "description": "Flask Smart Farm APIs",
+            "name": "Farm"
+        },
+        {
+            "description": "Land APIs",
+            "name": "Land"
+        },
+        {
+            "description": "Farmer APIs",
+            "name": "Farmer"
+        },
+        {
+            "description": "Crop APIs",
+            "name": "Crop"
+        },
+        {
+            "description": "Livestock management",
+            "name": "Livestock"
+        },
+        {
+            "description": "Activities management",
+            "name": "Activities"
+        },
+        {
+            "description": "Crop Prices",
+            "name": "Prices"
+        },
+        {
+            "description": "Fertilizers",
+            "name": "Fertilizers"
+        },
+        {
+            "description": "Precesion Farming",
+            "name": "Precesion Farming"
+        },
+        {
+            "description": "Loan Management",
+            "name": "Loan Management"
+        },
+        {
+            "description": "Credit Management",
+            "name": "Credit Management"
+        },
+        {
+            "description": "Seed Management",
+            "name": "Seed Management"
+        },
+        {
+            "description": "Equipment Management",
+            "name": "Equipment Management"
+        },
+        {
+            "description": "Soil Testing",
+            "name": "Soil Testing"
+        },
+        {
+            "description": "Insurance",
+            "name": "Insurance"
+        },
+        {
+            "description": "Pesticide",
+            "name": "Pesticide management"
+        },
+        {
+            "description": "Land Record",
+            "name": "Land Record"
+        },
+        {
+            "description": "APMC",
+            "name": "APMC Data"
+        },
+        {
+            "description": "Erigation",
+            "name": "Erigation Management"
+        },
+        {
+            "description": "Electricity",
+            "name": "Electricity"
+        },
+        {
+            "description": "Food",
+            "name": "Food"
+        },
+        {
+            "description": "Gov Schemes",
+            "name": "Gov Scheme"
+        },
+        {
+            "description": "Credit Schemes",
+            "name": "Credit Scheme"
+        },
+        {
+            "description": "Dairy Schemes",
+            "name": "Dairy Scheme"
+        },
+        {
+            "description": "Krishi Knowledge",
+            "name": "Krishi Knowledge"
+        },
+        {
+            "description": "Crop Detection API",
+            "name": "Crop Detection API"
+        },
+        {
+            "description": "Crop Disease Detection API",
+            "name": "Crop Disease Detection API"
+        },
+        {
+            "description": "Water Management",
+            "name": "Water MAnagement"
+        },
+        {
+            "description": "Call Center Info",
+            "name": "Call Center Info"
+        },
+        {
+            "description": "Farming Education",
+            "name": "Farming Education"
+        },
+        {
+            "description": "Farming Platform",
+            "name": "Farming Platform"
+        },
+        {
+            "description": "Agritech info",
+            "name": "Agritech Info"
+        },
+        {
+            "description": "Agri Gigs info",
+            "name": "Agri Gigs Info"
+        },
+        {
+            "description": "Vertical Farming",
+            "name": "Vertical Farming Info"
+        },
+        {
+            "description": "Agri Law info",
+            "name": "Agri Law Info"
+        },
+        {
+            "description": "Contract Farming info",
+            "name": "Contract Farming Info"
+        },
+        {
+            "description": "MSP info",
+            "name": "MSP Info"
+        },
+        {
+            "description": "Agri Startup info",
+            "name": "Agri Startup Info"
+        },
+        {
+            "description": "Weather info",
+            "name": "Weather Info"
+        },
+        {
+            "description": "MArket info",
+            "name": "MArket Info"
+        },
+        {
+            "description": "Society info",
+            "name": "Society Info"
+        },
+        {
+            "description": "Cold Storage info",
+            "name": "Cold Storage Info"
+        }
+    ]
+}
