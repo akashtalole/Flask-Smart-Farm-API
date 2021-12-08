@@ -55,6 +55,7 @@ market_space = app.namespace('MArket Info', description="MArket info")
 society_space = app.namespace('Society Info', description="Society info")
 coldstorage_space = app.namespace('Cold Storage Info', description="Cold Storage info")
 cattlestockmarket_space = app.namespace('Cattlestock Market Info', description="Cattlestock Market info")
+milkprocessor_space = app.namespace('Milk Processor Info', description="Milk Processor info")
 
 @name_space.route("/")
 class MainClass(Resource):
@@ -795,5 +796,23 @@ class MainClass(Resource):
 
 	def delete(self):
 		return { "status": "Delete Cattlestock Market info"}
+
+@milkprocessor_space.route("/")
+class MainClass(Resource):
+
+	def get(self):
+		return { "status": "Get Milk Processor info"}
+	
+	def post(self):
+		indata = request.get_json()
+		return { "status": "Add Milk Processor Info"}
+
+	def put(self):
+		indata = request.get_json()
+		return { "status": "Update Milk Processor Info"}
+
+	def delete(self):
+		return { "status": "Delete Milk Processor info"}
+
 if __name__ == '__main__':
 	flask_app.run(host="0.0.0.0", debug=True)
