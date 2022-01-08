@@ -56,6 +56,7 @@ society_space = app.namespace('Society Info', description="Society info")
 coldstorage_space = app.namespace('Cold Storage Info', description="Cold Storage info")
 cattlestockmarket_space = app.namespace('Cattlestock Market Info', description="Cattlestock Market info")
 milkprocessor_space = app.namespace('Milk Processor Info', description="Milk Processor info")
+pmsn_space = app.namespace('PMSN Info', description="PMSN info")
 
 @name_space.route("/")
 class MainClass(Resource):
